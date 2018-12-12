@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PandoraWorld</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="" />
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0"/>
+    <!-- CSS Files -->
+	<link type="text/css" rel="stylesheet" href="css/reset.css" >
+    <!-- Google Fonts https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <!-- Font Awesome Here https://fontawesome.com/ -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="css/master.css" >
+</head>
+<body>
+	<div id="header">
+		<a href="index.html"> <img src="images/logo.png" alt="logo"> </a>
+		<ul>
+			<li><a href="index.html"> HOME </a></li>
+			<li><a href="#about"> ABOUT </a></li>
+			<li><a href="#packages"> PACKAGES </a></li>
+			<li><a href="information.html"> INFORMATION </a></li>
+			<li><a href="gallery.html"> GALLERY </a></li>
+			<li><a href="contact.html"> CONTACT </a></li>
+		</ul>
+
+		<h2> EXPERIENCE SOMETHING YOU NEVER THOUGHT EXISTED </h2>
+		<h3> We are offering you something special </h3>
+		<h4> <a href="information.html"> LEARN MORE </a></h4>
+	</div>
+	
+
+		<div id="about">
+		<h2 id="about"> ABOUT </h2>
+		<p> In 2055 me and my brother Paul created a company called "PANDORAWORLD". Our main objective was to give people the best experience of their lives for reasonable price. We are committed to offering travel services of the highest quality, combining our energy and enthusiasm, with our years of experience. Our greatest satisfaction comes in serving large numbers of satisfied clients who have experienced the joys and inspiration of travel. </p>
+		</div>
+
+    <div id="packages">
+		<h2 id="packages"> PACKAGES </h2>
+		  <section class="container">
+  			<div class="card cards">
+    		<div class="front">
+    			<img src="images/bronzeicon.png" alt="Bronze package icon"> 
+				  <h3> BRONZE PACKAGE </h3>
+				  <button onclick="flip()">ORDER NOW</button>	
+    		</div>
+   	 		<div class="back">
+   	 			<h3> BRONZE PACKAGE </h3>
+   	 			<ul>
+   	 			<h4> Duration of the trip: 3 hours </h4>
+   	 			<h5> INCLUDES: </h5>
+   	 			<li> Flying over <a href="information.html#nature"> Hallelujah Mountains </a> and <a href="information.html#clans"> Omatikaya clan </a> </li>
+   	 			<li> <a href="information.html#nature"> Warbonnet Fern </a> souvenir</li>
+   	 			<li> Food & Drinks </li>
+   	 			</ul>
+   	 		<button onclick="flip()"> GO BACK </button>
+   	 	</div>
+  	</div>
+
+  		<div class="card card1">
+    		<div class="front">
+    			<img src="images/silvericon.png" alt="Silver package icon"> 
+				  <h3> SILVER PACKAGE </h3>
+				  <button onclick="flip1()">ORDER NOW </button>	
+    		</div>
+   	 		<div class="back">
+   	 			<h3> SILVER PACKAGE </h3>
+   	 			<ul>
+   	 				<h4> Duration of the trip: 1 day </h4>
+   	 				<h5> INCLUDES: </h5>
+   	 				<li> Everything from Bronze package </li>
+   	 				<li> Spend one night with <a href="information.html#clans"> Omatikaya clan </a> </li>
+   	 				<li> Visit <a href="information.html#nature">Bioluminescence</a> jungle </li>
+   	 				<li> Spiritual connection with <a href="information.html#culture"> Atokirina </a></li>
+   	 			</ul>
+   	 		<button onclick="flip1()"> GO BACK </button>
+   	 	</div>
+  		</div>
+
+		<div class="card card2">
+    		<div class="front">
+    			<img src="images/goldicon.png" alt="Gold package icon"> 
+				  <h3> GOLD PACKAGE </h3>
+				  <button onclick="flip2()">ORDER NOW </button>	
+    		</div>
+   	 		<div class="back">
+   	 			<h3> GOLD PACKAGE </h3>
+   	 			<ul>
+   	 				<h4> Duration of the trip: 3 days </h4>
+   	 				<h5> INCLUDES: </h5>
+   	 				<li> Everything from Bronze and Silver package </li>
+   	 				<li> Learning <a href="information.html#navi"> Na'Vis </a>language and their culture </li>
+   	 				<li> Spiritual connection with <a href="information.html#culture"> Eywa </a> and tree of souls </li>
+   	 				<li> Transforming into Na'Vi for 1 day and experience their daily routine </li>
+   	 			</ul>
+   	 		<button onclick="flip2()"> GO BACK </button>
+   	 		</div>
+  		</div>	
+	</div>
+
+	<div id="footer">
+		<div class="group">
+			<ul id="leftfooter">
+				<li><a href="#about"> ABOUT </a></li>
+				<li><a href=""> FAQ </a></li>
+				<li><a href=""> TERMS </a></li>
+			</ul>
+			<ul id="footerlayout">
+			 <li><a href="https://www.youtube.com/"><i class="fab fa-youtube fa-2x"> </i></a></li>
+			 <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-2x"> </i></a></li>
+			 <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"> </i></a></li>
+			 <li><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram fa-2x"> </i></a></li>
+			</ul>
+		</div>
+	</div>
+<!-- JAVASCRIPT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+<script src="js/flip.js"></script>
+
+</body>
+</html>

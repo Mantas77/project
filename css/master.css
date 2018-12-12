@@ -1,0 +1,608 @@
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{   
+    font-size: 15px;
+    text-align: center;
+    font-family: Abel, sans-serif;
+}
+#header{
+    background-image: url(../images/headerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 280px;
+}
+#header img {
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 15px;
+}
+#header ul {
+    float: right;
+}
+#header ul li {
+    float: left;
+    line-height: 80px;
+}
+#header ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+    text-decoration: none;
+}
+#header a:hover {
+   text-decoration: underline;
+}
+#header a:active {
+   text-decoration: underline;
+} 
+#header h2{
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 500px;
+    padding-bottom: 5px;
+}
+#header h3{
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+#header h4 a{  
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+#header h4 a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#infoheader{
+    background-image: url(../images/infoheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 280px;
+}
+#infoheader img {
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 15px;
+}
+#infoheader ul {
+    float: right;
+}
+#infoheader ul li {
+    float: left;
+    line-height: 90px;
+}
+#infoheader ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+    text-decoration: none;
+}
+#infoheader a:hover {
+   text-decoration: underline;
+}
+#infoheader a:active {
+   text-decoration: underline;
+} 
+#infoheader h2{
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 500px;
+    padding-bottom: 5px;
+}
+#infoheader h3{
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+#infoheader h4 a{  
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+#infoheader h4 a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#galleryheader{
+    background-image: url(../images/galleryimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 280px;
+}
+#galleryheader img {
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 15px;
+}
+#galleryheader ul {
+    float: right;
+}
+#galleryheader ul li {
+    float: left;
+    line-height: 80px;
+}
+#galleryheader ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+    text-decoration: none;
+}
+#galleryheader a:hover {
+   text-decoration: underline;
+}
+#galleryheader a:active {
+   text-decoration: underline;
+} 
+#galleryheader h2{
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 500px;
+    padding-bottom: 5px;
+}
+#galleryheader h3{
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+#galleryheader h4 a{  
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+#galleryheader h4 a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#contactheader{
+    background-image: url(../images/contactimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 280px;
+}
+#contactheader img {
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 15px;
+}
+#contactheader ul {
+    float: right;
+}
+#contactheader ul li {
+    float: left;
+    line-height: 90px;
+}
+#contactheader ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+    text-decoration: none;
+}
+#contactheader a:hover {
+   text-decoration: underline;
+}
+#contactheader a:active {
+   text-decoration: underline;
+} 
+#contactheader h2{
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 500px;
+    padding-bottom: 5px;
+}
+#contactheader h3{
+    font-size: 35px;
+    padding-bottom: 45px;
+}
+#contactheader h4 a{  
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+#contactheader h4 a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#about{
+    background-image: url(../images/aboutimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 100px;
+}
+#about h2{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#about h2:after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: -5px;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -25px;
+    background: #098bab;
+}
+#about p{
+    font-size: 19px;
+    margin: 0 auto;
+    width: 60%;
+}
+#information{
+    color: black;
+    padding-bottom: 70px;
+}
+#information h2{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#information h2:after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: -5px;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -25px;
+    background: #098bab;
+}
+#information h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #098bab;
+    padding-top: 10px;
+}
+#information p{
+    font-size: 19px;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 15px;
+}
+#gallery{
+    color: black;
+    padding-bottom: 70px;
+}
+#gallery h2{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#gallery h2:after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: -5px;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -25px;
+    background: #098bab;
+}
+#gallery p{
+    font-size: 19px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.gallerysection img {
+  margin: 15px;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.gallerysection img:hover {
+  opacity: 0.6;
+}
+#contact{
+    color: black;
+    
+}
+#contact h2{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#contact h2:after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: white;
+    display: block;
+    position: relative;
+    bottom: -5px;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -25px;
+    background: #098bab;
+}
+#contact p{
+    font-size: 19px;
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 30px;
+}
+#packages{
+    background-image: url(../images/packageimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 150px;
+}
+#packages h2{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color:  #808080;
+}
+#packages h2:after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #098bab;
+    display: block;
+    position: relative;
+    bottom: -5px;
+    margin-bottom: 50px;
+    left: 50%;
+    margin-left: -25px;
+}
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+.card {
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+.card div {
+    height: 400px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card .front {
+  padding-top: 20px;
+  background: #c7c7c7;
+  border-radius: 20px;
+}
+.front h3{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    color: white;
+    font-weight: bold;
+}
+.front button{
+    background-color: #098bab;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    font-family: Abel, sans-serif;
+}
+.back h3{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.back ul li{
+    color: #34495E;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.back ul{
+    padding-bottom: 20px;
+}
+.back ul li a{
+    color: #283747;
+}
+.back ul li a:hover{
+    font-weight: bold;
+    color: #1B2631;
+}
+.back button{
+    background-color: #055366;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    font-family: Abel, sans-serif;
+    float: left;
+    margin-left: 150px;
+}
+.back h4{
+    color: #D32F2F;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.back h5{
+    color: #1A5276;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.card .back {
+    padding-top: 20px;
+    background: #c7c7c7;
+    border-radius: 20px;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+#contactsection{
+    text-align: left;
+    padding: 10px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 12px;
+    margin: 8px 0;
+}
+input[type=submit]{
+    padding: 16px 20px;
+    background-color: #098bab;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    border: none;
+    float: left;
+
+}
+input[type=reset]{
+    padding: 16px 20px;
+    background-color: #066279;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    border: none;
+    float: left;
+}
+iframe{
+    width: 100%;
+    height: 650px;
+    padding-top: 20px;
+}
+#footer {
+    font-size: 14px;
+    background-color: #45494d;
+    line-height: 90px;
+}
+#footer a {
+    color: #d7dee4;
+    text-decoration: none;
+}
+#footer ul {
+    float: right;
+}
+#footer ul li {
+    float: left;
+    line-height: 80px;
+}
+#footerlayout li a { 
+    padding: 15px;
+}
+#footer ul#leftfooter {
+    float: left;
+}
+#footer ul#leftfooter li {
+    
+    padding-left: 50px;
+}
+#leftfooter a:hover{
+    color: #098bab;
+    text-decoration: underline;
+}
+.fa-twitter:hover{
+    color: #55acee;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-instagram:hover{
+    color: #517fa4;
+}
+.fa-youtube:hover{
+    color: #b31217;
+}
+.group:before,
+.group:after {
+    content: " "; 
+    display: table;
+    }
+.group:after {
+    clear: both;
+    }
+.images{
+    float:left;
+    width: 25%;
+    height: auto;
+}
+.images p{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 90px;
+    color: #098bab;
+}
+.images img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.images img:hover {
+  opacity: 0.6;
+}
